@@ -141,8 +141,9 @@ gunwip           # restore work in progress
 | Abbreviation | Command                                              |
 | ------------ | ---------------------------------------------------- |
 | gco          | `git checkout`                                       |
-| gcod         | `git checkout develop`                               |
+| gcod         | `git checkout (__git.develop_branch)`                |
 | gcom         | `git checkout (__git.default_branch)`                |
+| gcot         | `git checkout testing`                               |
 | gcb          | `git checkout -b`                                    |
 
 ### Commit

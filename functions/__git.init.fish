@@ -160,6 +160,7 @@ function __git.init
   __git.create_abbr gcb        git checkout -b
   __git.create_abbr gcod       git checkout \(__git.develop_branch\)
   __git.create_abbr gcom       git checkout \(__git.default_branch\)
+  __git.create_abbr gcot       git checkout testing
 
   # git flow abbreviations
   __git.create_abbr gfb        git flow bugfix
