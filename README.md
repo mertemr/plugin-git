@@ -351,6 +351,9 @@ gunwip           # restore work in progress
 | gfm          | `git fetch origin (__git.default_branch) --prune; and git merge FETCH_HEAD` |
 | gfo          | `git fetch origin`                                          |
 | gm           | `git merge`                                                 |
+| gma          | `git merge --abort`                                         |
+| gmc          | `git merge --continue`                                      |
+| gms          | `git merge --squash --no-commit`                            |
 | gmt          | `git mergetool --no-prompt`                                 |
 | gmom         | `git merge origin/(__git.default_branch)`                   |
 | grev         | `git revert`                                                |

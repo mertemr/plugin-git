@@ -85,6 +85,10 @@ function __git.init
   __git.create_abbr glod       git log --oneline --decorate --color develop..
   __git.create_abbr gloo       "git log --pretty=format:'%C(yellow)%h %Cred%ad %Cblue%an%Cgreen%d %Creset%s' --date=short"
   __git.create_abbr gm         git merge
+  __git.create_abbr gma        git merge --abort
+  __git.create_abbr gmc        git merge --continue
+  __git.create_abbr gms        git merge --squash --no-commit
+  __git.create_abbr gmf        git merge --ff-only
   __git.create_abbr gmt        git mergetool --no-prompt
   __git.create_abbr gmom       git merge origin/\(__git.default_branch\)
   __git.create_abbr gp         git push
